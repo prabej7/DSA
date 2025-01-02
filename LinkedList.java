@@ -99,7 +99,7 @@ public class LinkedList {
     }
 
     public Node get(int index) {
-        if (index < 0 || length > length) {
+        if (index < 0 || index > length) {
             return null;
         }
         Node temp = head;
